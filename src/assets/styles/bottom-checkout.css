@@ -1,0 +1,37 @@
+.bottom-section-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  box-shadow: 1px -1px 10px rgb(201, 53, 53);
+  height: 50px;
+  bottom: 0;
+  background-color: white;
+}
+.bottom-section-total-price {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+.bottom-total-price span{
+  color: rgb(180, 41, 41);
+}
+.bottom-total-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.order-button-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+}
+.order-button {
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: rgb(243, 79, 79);
+}

@@ -1,0 +1,83 @@
+.checkout-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 5px;
+  margin-bottom: 55px;
+}
+.checkout-content {
+  display: flex;
+  border: 1px black solid;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+}
+.checkout-img-container {
+  height: 100%;
+}
+.checkout-img {
+  width: 100px;
+  height: 100%;
+}
+.checkout-details-container {
+  flex: 2;
+  margin-top: 8px;
+}
+.checkout-price {
+  margin-top: 5px;
+}
+.checkout-price span {
+  color: rgb(180, 41, 41);
+}
+/* add & minus quantity */
+.checkout-quantity-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.checkout-quantity-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.total-quantity-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.adding-quantity, .deducting-quantity {
+  font-size: .8rem;
+  padding: 5px 10px;
+  border: none;
+  font-size: larger;
+  background: transparent;
+}
+.adding-quantity {
+  color: rgb(14, 206, 56);
+}
+.deducting-quantity {
+  color: rgb(243, 62, 62);
+}
+/* edit icon & delete icon */
+.edit-delete-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+.edit-delete-button-content {
+  display: flex;
+  flex-direction: row;
+
+}
+.delete-button {
+  height: 100%;
+  border: none;
+  background: transparent;
+}
+.delete-icon {
+  height: 25px;
+}
